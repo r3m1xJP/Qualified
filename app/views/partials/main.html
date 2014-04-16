@@ -1,0 +1,13 @@
+<div ng-include="'partials/navbar'"></div>
+
+<div class="jumbotron">
+  <h1>Welcome <span ng-show="currentUser">{{ currentUser.name }}</span>!</h1>
+  <p class="lead">
+    <input type="text" class="form-control" placeholder="Enter search criteria..." />
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#">Search</a></p>
+</div>
+
+<div class="footer">
+  <p><a class="btn btn-info" href="http://www.varcan.it" target="_blank">Varcan Inc</a></p>
+</div>

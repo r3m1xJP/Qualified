@@ -1,0 +1,20 @@
+Application Details
+
+    Company:
+
+    Varcan
+    Application Name:
+
+    Qualified
+    API Key:
+
+    77ni6f9s598xix
+    Secret Key:
+
+    ZTvMtKXKPO9cH9bK
+    OAuth User Token:
+
+    0581da96-5a70-4c59-9d22-5f3b2aacb2af
+    OAuth User Secret:
+
+    6b1a6494-4c68-4b59-a0d4-6114091c2a88
