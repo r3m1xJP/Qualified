@@ -10,7 +10,10 @@ var express = require('express'),
  */
 
 // Set default node environment to development
-process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+//process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
+// Set default node environment to production
+process.env.NODE_ENV = process.env.NODE_ENV || 'production';
 
 var config = require('./lib/config/config');
 var db = mongoose.connect(config.mongo.uri, config.mongo.options);
@@ -24,7 +27,7 @@ fs.readdirSync(modelsPath).forEach(function (file) {
 });
 
 // Populate empty DB with sample data
-require('./lib/config/dummydata');
+//require('./lib/config/dummydata');
 
 // Passport Configuration
 var passport = require('./lib/config/passport');
